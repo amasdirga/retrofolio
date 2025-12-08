@@ -6,12 +6,8 @@ const AboutContent: React.FC = () => {
     <div className="space-y-6 text-gray-800">
       <div className="flex flex-col md:flex-row items-start gap-4 border-b-2 border-gray-300 pb-4">
         <div className="w-24 h-24 bg-gray-300 border-2 border-gray-400 flex items-center justify-center shadow-inner shrink-0 overflow-hidden relative group">
-           {/* 
-              Replaced Icon with Image. 
-              NOTE: Please place 'profile_elephant.jpg' in your public folder.
-           */}
            <img 
-             src="./profile_elephant.jpg" 
+             src="https://scontent-cgk1-2.xx.fbcdn.net/v/t39.30808-6/489452279_3207020926104477_4728037137612742756_n.jpg?_nc_cat=107&cb2=99be929b-bd9a46d7&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=8VWRqCET_P0Q7kNvwF5Iz6y&_nc_oc=AdnF8l1hQlKqVGBGSwZjYmfH5vQWBJ9TQMR3q5gHdAzDXDxHGocRJIoFb-lwTO79zgQ&_nc_zt=23&_nc_ht=scontent-cgk1-2.xx&_nc_gid=DLihSYfK6K5qE7CteTziww&oh=00_AflCevYc9Bi8N4Odg3G-LUvr0NPCM-lIc9oE2Ci6f2KcOw&oe=693CAD28" 
              alt="Amas Dirga Profile" 
              className="w-full h-full object-cover"
              onError={(e) => {
